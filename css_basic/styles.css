@@ -1,0 +1,59 @@
+body, main{
+    display: flex;
+}
+main{
+    flex-direction: row;
+    flex: auto;
+}
+article{
+    flex:2;
+    overflow-y: auto;
+
+}
+aside{
+    flex:1;
+    overflow-y: auto;
+}
+.works_on_smartphone{
+width: 1000px;
+height: auto;
+}
+.artcon{
+    background: rgb(40, 60, 60);
+    
+}
+.artcon p{
+    text-transform: capitalize;
+    font-size: 24px;
+    color:aqua;
+}
+.ascap{
+    background: chocolate;
+}
+.arttable{
+    background: gray;
+}
+.arttable thead{
+    color:brown;
+    font-style: italic;
+
+}
+.arttable tr{
+    border-radius: 3px;
+    border-color: aqua;
+}
+.arttable td{
+    border-radius: 3px;
+    border-color: aqua;
+}
+.foot{
+    background: mediumslateblue;
+}
+.headnav{
+    background: aquamarine;
+    width: 300px;
+}
+.headnav li{
+    display: inline-block;
+    text-decoration: none;
+}
