@@ -182,8 +182,8 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:b
       ============================= */
   
   ul.row {
-    margin: 0;
-    padding: 1rem;
+    margin: -1rem;
+    padding: 0;
     list-style: none;
   }
   
@@ -194,7 +194,7 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:b
   }
   
   [class*='col-'] {
-margin: -1rem;
+margin: 1rem;
   }
   
   .col-1-3 {
