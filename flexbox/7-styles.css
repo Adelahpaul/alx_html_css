@@ -218,15 +218,17 @@ margin: 5rem;
     padding: 0;
     list-style: none;
     text-align: center;
+    display: flex;
   }
-  
+  .nav .nav-item + .nav-item{
+    margin: var(0 0 0 2rem);
+  }
   .nav .nav-item {
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
     letter-spacing: var(--nav-item-letter-spacing);
-    display: var(--nav-item-display);
-    margin: var(--nav-item-margin);
+    
   }
   
   .nav .nav-link {
@@ -261,6 +263,7 @@ margin: 5rem;
   .header-container{
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
   .header {
     padding: var(--header-padding);
